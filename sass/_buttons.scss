@@ -1,0 +1,45 @@
+@import "colors";
+
+button {
+  color: $very-blue;
+  margin-top: 20px;
+  background-color: transparent;
+  font-family: $font-fraunces, serif;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s, opacity 0.3s;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: -5px;
+    width: 140px;
+    height: 10px;
+    border-radius: 50px;
+    opacity: 0.2;
+  }
+}
+
+button:hover::before {
+  transform: scale(1.02);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+button.more1 {
+  &::before {
+    background-color: $yellow;
+  }
+}
+
+button.more2 {
+  &::before {
+    background-color: $soft-red;
+  }
+}

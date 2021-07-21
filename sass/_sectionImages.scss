@@ -1,0 +1,12 @@
+div.images_container {
+  display: flex;
+  overflow: hidden;
+}
+
+div.image {
+  width: 25%;
+}
+img.gallery {
+  width: 100%;
+  height: 100%;
+}

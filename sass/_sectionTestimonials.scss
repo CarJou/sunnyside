@@ -1,0 +1,45 @@
+section.testimonials {
+  padding: 130px;
+}
+
+h1.title_testimonials {
+  text-align: center;
+  text-transform: uppercase;
+  color: $grayish-blue;
+  font-size: 20px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 70px;
+  font-weight: 900;
+}
+
+div.card_container {
+  display: flex;
+}
+
+div.card {
+  text-align: center;
+  padding: 20px;
+}
+img.img-testimonials {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 5%;
+}
+
+p.p_testimonials {
+  font-family: $font-barlow;
+  color: $dark-grayish-blue;
+  line-height: 1.5em;
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
+h1.name {
+  font-size: 17px;
+  color: $very-blue;
+  font-weight: 900;
+}
+h2.position {
+  color: $grayish-blue;
+  font-size: 14px;
+  font-weight: 900;
+}

@@ -1,0 +1,53 @@
+@import "colors";
+
+@mixin p_text {
+  font-family: $font-barlow;
+  font-size: 18px;
+  line-height: 1.5em;
+  width: 70%;
+}
+
+div.row_image1,
+div.row_image2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  width: 50vw;
+}
+
+div.row_image1 {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+div.row_image2 {
+  background-image: url(../images/desktop/image-photography.jpg);
+}
+div.content_text {
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+
+h1.title_section_1 {
+  font-size: 28px;
+  color: $dark-cyan;
+}
+
+h1.title_section_2 {
+  font-size: 28px;
+  color: $dark-blue;
+}
+p.text_section_1 {
+  @include p_text;
+  color: $dark-cyan;
+}
+p.text_section_2 {
+  @include p_text;
+  color: $dark-blue;
+  width: 60%;
+}
