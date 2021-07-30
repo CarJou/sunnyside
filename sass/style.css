@@ -193,8 +193,6 @@ p.text_section_2 {
   }
   div.styleText {
     padding: 3em;
-  }
-  div.styleText {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

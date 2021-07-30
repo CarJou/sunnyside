@@ -38,11 +38,12 @@ img.social_img {
   margin: 20px;
   cursor: pointer;
   transition: transform 0.3s, color 0.5s;
+  &:hover {
+    transform: translateY(-7px);
+    color: white;
+  }
 }
-img.social_img:hover {
-  transform: translateY(-7px);
-  color: white;
-}
+
 div.attribution {
   color: $dark-footer;
   font-family: $font-barlow;

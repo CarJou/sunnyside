@@ -1,5 +1,3 @@
-@import "colors";
-
 @mixin p_text {
   font-family: $font-barlow;
   font-size: 18px;
@@ -107,12 +105,11 @@ p.text_section_2 {
   }
   div.styleText {
     padding: 3em;
-  }
-  div.styleText {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   div.row_image1,
   div.row_image2 {
     min-height: 80vh;
