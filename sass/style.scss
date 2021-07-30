@@ -5,7 +5,8 @@
 @import "sectionTestimonials";
 @import "sectionImages";
 @import "footer";
-@import "ulNavbar";
+@import "navbar";
+@import "header";
 
 body {
   background-color: $white;
@@ -13,75 +14,4 @@ body {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-header {
-  height: 630px;
-  background: {
-    image: url(../images/desktop/image-header.jpg);
-    size: cover;
-    repeat: no-repeat;
-    position: center;
-  }
-}
-
-div.headerTitle {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 25px;
-}
-
-img.arrow {
-  height: 75px;
-  margin-top: 65px;
-}
-
-h1.title {
-  color: $white;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 40px;
-}
-
-section.section_graphics {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-div.rowText {
-  height: 100%;
-  width: 50vw;
-}
-div.styleText {
-  padding: 7em;
-  h1.secondTitle {
-    color: $very-blue;
-    font-size: 35px;
-    font-weight: 900;
-  }
-}
-p.infoText {
-  color: $grayish-blue;
-  font-family: $font-barlow;
-  font-size: 15px;
-  line-height: 1.5em;
-}
-
-div.rowImage {
-  width: 50vw;
-}
-
-img.fruits {
-  height: 100%;
-  width: 100%;
 }

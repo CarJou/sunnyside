@@ -1,0 +1,30 @@
+header {
+  height: 630px;
+  background: {
+    image: url(../images/desktop/image-header.jpg);
+    size: cover;
+    repeat: no-repeat;
+    position: center;
+  }
+}
+
+div.headerTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+img.arrow {
+  height: 6rem;
+  margin-top: 65px;
+}
+
+h1.title {
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 40px;
+  text-align: center;
+}

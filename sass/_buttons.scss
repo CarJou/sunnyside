@@ -1,6 +1,7 @@
 @import "colors";
 
-button {
+.more1,
+.more2 {
   color: $very-blue;
   margin-top: 20px;
   background-color: transparent;
@@ -26,20 +27,24 @@ button {
   }
 }
 
-button:hover::before {
-  transform: scale(1.02);
-  opacity: 0.7;
-  z-index: -1;
-}
-
-button.more1 {
+.more1 {
   &::before {
     background-color: $yellow;
   }
+  &:hover::before {
+    transform: scale(1.02);
+    opacity: 0.7;
+    z-index: -1;
+  }
 }
 
-button.more2 {
+.more2 {
   &::before {
     background-color: $soft-red;
+  }
+  &:hover::before {
+    transform: scale(1.02);
+    opacity: 0.7;
+    z-index: -1;
   }
 }

@@ -27,15 +27,20 @@
     <header>
       <nav>
         <div class="logo-header">
-          <img src="./images/logo.svg" alt="logo" />
+          <img class="logo" src="./images/logo.svg" alt="logo" />
         </div>
         <div class="nav-buttons">
-          <ul class="navbar">
-            <li class="navbar">About</li>
-            <li class="navbar">Services</li>
-            <li class="navbar">Projects</li>
-            <li class="navbar">Contact</li>
-          </ul>
+          <button class="ham" type="button" onclick="toggleMenu()">
+            <img src="./images/icon-hamburger.svg" alt="" />
+          </button>
+          <div class="site-nav" id="site-nav">
+            <ul class="nav">
+              <li class="navbar">About</li>
+              <li class="navbar">Services</li>
+              <li class="navbar">Projects</li>
+              <li class="navbar">Contact</li>
+            </ul>
+          </div>
         </div>
       </nav>
       <div class="headerTitle">
@@ -68,7 +73,7 @@
           />
         </div>
       </section>
-      <section class="section_graphics">
+      <section class="section_graphics_2">
         <div class="rowImage">
           <img
             class="fruits"
@@ -230,5 +235,6 @@
         </div>
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
